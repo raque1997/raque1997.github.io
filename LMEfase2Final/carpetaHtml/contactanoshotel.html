@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contactanos</title>
+  <link rel="stylesheet" href="../carpetaCss/contactanosh.css">
+
+  <!----vinculamos iconos de google fonts--->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!--Iconos de footer-->
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="../carpetaCss/style.css" />
+</head>
+
+
+
+<body class="vh-100 scroll-hidden">
+
+  <header>
+    <!--Navbar--->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+      <div class="container">
+        <!--Logo-->
+        <nav class="navbar">
+          <div class="container">
+            <img src="logo.svg" alt="Bootstrap" width="55" height="35"></img>
+            <a class="fw-bold text-white fs-4"> Hotel</a>
+          </div>
+        </nav>
+        <!--Navegac-->
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Menudesplegable-->
+        <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header text-white border-bottom">
+            <img src="logo.svg" alt="Bootstrap" width="60" height="34">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">HOTEL</h5>
+            <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <!--Cuerpo del menu-->
+          <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+            <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Index.html">Inicio</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="cuartosdisponibles.html">Habitaciones</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="contactanoshotel.html">Contactanos</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="sitios_turisticos.html">Turismo</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="experiencias.html">Novedades</a>
+              </li>     
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="Acerca de.html">Acerca de</a>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="creadores.html">Creadores</a>
+              </li>    
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="Promociones.html">Promociones</a>
+              </li>     
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+    </div>
+  </header>
+
+
+  <!------section--->
+  <section class="box10">
+    <div class="title">
+      <h1>¡Te esperamos pronto!</h1>
+    </div>
+
+    <!------contact container--->
+    <div class="contact">
+
+      <!------form--->
+      <div class="form-container">
+        <h3>Contactanos:</h3>
+        <form action="" class="contact-form">
+          <input type="text" placeholder="Nombre">
+          <input type="text" name="" id="" placeholder="Correo">
+          <textarea placeholder="Mensaje" class="contact-form-txtarea"></textarea>
+          <br><br>
+          <input type="submit" value="Enviar" class="send-button">
+        </form>
+      </div>
+
+      <!------mapa--->
+      <div class="map-responsive">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14337.88928229507!2d-80.2115482!3d26.0508161!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2cf4c887969df%3A0x3c218ceb75b4042a!2sSeminole%20Hard%20Rock%20Hotel%20%26%20Casino%20Hollywood%2C%20FL!5e0!3m2!1ses-419!2ssv!4v1714095367700!5m2!1ses-419!2ssv"
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <!------Informacion extra--->
+      <div class="texto">
+        <br><br>
+        <h2>Explora los lugares cerca de TURHOTEL.</h2>
+        <span class="material-icons orange600">flight</span> 14 min del Aeropuerto Fort Lauderdale
+        <span class="material-icons orange600">restaurant_menu</span> 8 min de McDonald's
+        <span class="material-icons orange600">local_cafe</span> 5 min de Hard Rock Cafe
+
+      </div>
+
+
+    </div>
+  </section>
+
+  <!--::::Pie de Pagina::::::-->
+  <footer class="pie-pagina">
+    <div class="grupo-1">
+      <div class="box">
+        <figure>
+          <a href="#">
+            <img src="logo.svg" alt="Logo">
+          </a>
+        </figure>
+      </div>
+      <div class="box">
+        <h2>RECOMENDACION</h2>
+        <p> Ofertas de hoteles en todo el pais. Busca y reserva hoteles.</p>
+        <p> ¿No es lo que buscas? Encuentra otros miles de hoteles de renta con TURHOTEL en nuestras redes sociales.
+        </p>
+      </div>
+      <div class="box">
+        <h2>SIGUENOS</h2>
+        <div class="red-social">
+          <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+          <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+          <a href="https://twitter.com/" class="fa fa-twitter"></a>
+          <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+        </div>
+      </div>
+    </div>
+    <div class="grupo-2">
+      <small>&copy; <span id="currentYear"></span> <b>TURHOTEL</b> - Todos los Derechos Reservados.</small>
+    </div>
+  </footer>
+
+  <script src="../carpetaJs/date.js"></script> <!--   enlazamos el archivo JS -->
+
+</body>
+
+</html>
